@@ -1,0 +1,49 @@
+body {
+    color: #020202;
+    font-family: "Open Sans", sans-serif;
+    text-align: start;
+    margin: 0;
+}
+
+/* HERO DIV */
+#hero {
+    position: relative;
+    background-image: url(./image/faded-office.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 600px;
+}
+
+#hero-container {
+    position: absolute;
+    top: 30%;
+    height: 10em;
+    margin-top: -5em;
+    padding-left: 60px;
+    width: 500px;
+}
+
+#title {
+    font-size: 60px;
+    margin: 0 0 10px 0;
+    font-weight: 800;
+}
+
+.text {
+    font-size: x-large;
+}
+
+#hero-underline {
+    border-bottom: 4px solid #0ea5e9;
+}
+
+.btn {
+    background-color: #0ea5e9;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border: none;
+    padding: 18px 24px;
+}
